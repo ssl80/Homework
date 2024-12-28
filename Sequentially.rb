@@ -5,7 +5,7 @@ files = 5.times.map do |i|
     filename
 end
   
-# puts Sequentially
+# Sequentially
 def process_files_sequentially(files)
   files.each do |file|
     File.foreach(file) { |line| puts line }
