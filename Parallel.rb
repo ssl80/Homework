@@ -7,7 +7,7 @@ files = (0...5).map do |i|
     filename
 end      
 
-# puts Parallel
+# Parallel
 def process_files_parallel(files)
     Parallel.each(files) do |file|
       File.foreach(file) { |line| puts line }
