@@ -7,7 +7,7 @@ files = (0...5).map do |i|
     filename
   end   
 
-# puts Async 
+# Async 
 def process_files_async(files)
     Async do
       tasks = files.map do |file|
