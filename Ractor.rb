@@ -5,7 +5,7 @@ files = (0...5).map do |i|
     filename
 end   
 
-# Обработка файла с использованием Ractor
+# Ractor
 def process_files_ractor(files)
     ractors = files.map do |file|
       Ractor.new(file) do |f|
