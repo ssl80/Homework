@@ -5,7 +5,7 @@ files = 5.times.map do |i|
     filename
 end
   
- # puts Threads
+ # Threads
 def process_files_threads(files)
   files.each do |file|
     threads = []
