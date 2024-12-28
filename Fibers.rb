@@ -5,7 +5,7 @@ files = 5.times.map do |i|
     filename
 end
   
-# puts Fibers 
+# Fibers 
 def process_files_fibers(files)
     fibers = files.map do |file|
         Fiber.new do
